@@ -24,8 +24,10 @@
 #include <stdint.h>
 #include "usb_codes.h"
 
-#define CONTROL (USB_MOD_LCTRL << 8)
-#define ALT     (USB_MOD_LALT  << 8)
+#define CONTROL (USB_MOD_LCTRL  << 8)
+#define ALT     (USB_MOD_LALT   << 8)
+#define COMMAND (USB_MOD_LMETA  << 8)
+#define SHIFT   (USB_MOD_LSHIFT << 8)
 
 // macro index numbers
 enum MACROS {

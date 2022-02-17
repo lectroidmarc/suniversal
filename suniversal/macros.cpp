@@ -22,20 +22,20 @@
 #include "macros.h"
 
 // individual macros
-static const uint16_t macro_again[]   = {CONTROL, USB_Y, 0};
-static const uint16_t macro_undo[]    = {CONTROL, USB_Z, 0};
-static const uint16_t macro_undo_fr[] = {CONTROL, USB_W, 0};
-static const uint16_t macro_copy[]    = {CONTROL, USB_C, 0};
-static const uint16_t macro_paste[]   = {CONTROL, USB_V, 0};
-static const uint16_t macro_cut[]     = {CONTROL, USB_X, 0};
+static const uint16_t macro_again[]   = {COMMAND, USB_G, 0};
+static const uint16_t macro_undo[]    = {COMMAND, USB_Z, 0};
+static const uint16_t macro_undo_fr[] = {COMMAND, USB_W, 0};
+static const uint16_t macro_copy[]    = {COMMAND, USB_C, 0};
+static const uint16_t macro_paste[]   = {COMMAND, USB_V, 0};
+static const uint16_t macro_cut[]     = {COMMAND, USB_X, 0};
 
-static const uint16_t macro_stop[]    = {CONTROL, USB_SYSRQ, 0};
-static const uint16_t macro_props[]   = {ALT, USB_ENTER, 0};
-static const uint16_t macro_front[]   = {ALT, USB_TAB, 0};
-static const uint16_t macro_open[]    = {CONTROL, USB_O, 0};
-static const uint16_t macro_find[]    = {CONTROL, USB_F, 0};
+static const uint16_t macro_stop[]    = {CONTROL, USB_C, 0};
+static const uint16_t macro_props[]   = {COMMAND, USB_COMMA, 0};
+static const uint16_t macro_front[]   = {CONTROL, USB_DOWN, 0};
+static const uint16_t macro_open[]    = {COMMAND, USB_O, 0};
+static const uint16_t macro_find[]    = {COMMAND, USB_F, 0};
 
-static const uint16_t macro_help[]    = {ALT, USB_H, 0};
+static const uint16_t macro_help[]    = {SHIFT, COMMAND, USB_SLASH, 0};
 //
 
 MacroTable::MacroTable() {

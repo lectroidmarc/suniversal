@@ -38,8 +38,8 @@
 	  1    1     0      0      0      0      lb     mb     rb
 	  2    0    dxa6   dxa5   dxa4   dxa3   dxa2   dxa1   dxa0
 	  3    0    dya6   dya5   dya4   dya3   dya2   dya1   dya0
-      4    0    dxb6   dxb5   dxb4   dxb3   dxb2   dxb1   dxb0
-      5    0    dyb6   dyb5   dyb4   dyb3   dyb2   dyb1   dyb0
+    4    0    dxb6   dxb5   dxb4   dxb3   dxb2   dxb1   dxb0
+    5    0    dyb6   dyb5   dyb4   dyb3   dyb2   dyb1   dyb0
 
 	The implementation below will however also automatically detect when the
 	3-byte SUN protocol is used.

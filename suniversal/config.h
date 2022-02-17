@@ -49,7 +49,7 @@
 
 // Set whether to have the keyboard blink & beep at start up.
 //
-#define STARTUP_GREETING true
+#define STARTUP_GREETING false
 
 
 // SUN keyboard layouts
